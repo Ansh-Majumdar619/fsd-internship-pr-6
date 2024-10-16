@@ -1,0 +1,70 @@
+@font-face {
+  font-family: anton;
+  src: url(Anton-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  background-color: #106466;
+  font-family: anton;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #D8B08C;
+}
+
+textarea {
+  resize: none;
+}
+
+#notes{
+  color: #D8B08C;
+}
+
+.note-card {
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.note-card .note-title {
+  font-weight: bold;
+}
+
+#noteTitle, #noteContent, #noteTags, #noteColor{
+  background-color: #FFCB9B;
+}
+
+#searchBar{
+  background-color: #D8C3A4;
+}
+
+#searchButton{
+  background-color: #89BDBB;
+}
+
+.note-card .note-tags {
+  font-size: 0.9rem;
+  color: #C5C6C8;
+}
+
+.note-actions {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .note-card {
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
